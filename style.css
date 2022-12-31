@@ -1,0 +1,186 @@
+body{
+  
+    background-image: url(elegant_blue_luxury_background_modern.jpg);  /* Ustawiam zdjęcie jako tło strony */
+    background-size: cover;  /* Ustawiam rozmiar tła na taki, aby pokrywało całą stronę */
+    background-repeat: no-repeat;  /* Ustawiam, aby tło nie było powtarzane */
+    background-position: center;  /* Ustawiam, aby tło było wyśrodkowane */
+  
+}
+
+
+nav {
+    position: fixed;
+  width: 100%;
+  background-color: rgb(11, 29, 129);
+    /* Ustawiam równomierne rozłożenie elementów menu */
+}
+nav img
+  {
+    width: 32px;  /* Ustawiam szerokość obrazków na 32px */
+    height: 32px;  /* Ustawiam wysokość obrazków na 32px */
+    margin: 0 20px;  /* Ustawiam margines po lewej i prawej stronie obrazków na 20px */
+  }
+
+nav ul {
+  
+  
+  list-style: none;
+  margin-top: 60px;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  size: 50px;
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 1px solid rgb(52, 155, 240);  /* Dodaję obramowanie formularza */
+    padding: 20px;  /* Dodaję padding do formularza */
+    border-radius: 5px;  /* Dodaję zaokrąglenie rogów */
+  background-color: #111;
+}
+h2 {
+    background-color: rgb(52, 155, 240);
+    border: 1px solid rgb(52, 155, 240);  /* Dodaję obramowanie formularza */
+    padding: 20px;  /* Dodaję padding do formularza */
+    border-radius: 5px;  /* Dodaję zaokrąglenie rogów */
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0 10px;
+  }
+  .section {
+    
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    margin-right: 60px;
+  }
+  .languages  {
+    
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    margin-right: 60px;
+  }
+  .softskill {
+    
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    margin-left: 60px;
+  }
+  
+
+  li {
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+  }
+
+.link {
+color: rgb(0, 0, 0);
+padding: 10px;
+text-align: center;
+}
+  .title {
+    border: 1px solid rgb(52, 155, 240);  /* Dodaję obramowanie formularza */
+    padding: 20px;  /* Dodaję padding do formularza */
+    border-radius: 5px;  /* Dodaję zaokrąglenie rogów */
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title h1 {
+    
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+.title h3 {
+color: rgb(0, 0, 0);
+padding: 0px;
+text-align: center;
+}
+
+.title p {
+  border: 1px solid rgb(52, 155, 240);  /* Dodaję obramowanie formularza */
+    padding: 20px;  /* Dodaję padding do formularza */
+    border-radius: 20px;  /* Dodaję zaokrąglenie rogów */
+  color: rgb(2, 2, 2);
+  background-color: rgb(116, 227, 255);
+  padding: 10px;
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.content {
+  border: 1px solid rgb(52, 155, 240);  /* Dodaję obramowanie formularza */
+    padding: 20px;  /* Dodaję padding do formularza */
+    border-radius: 20px;  /* Dodaję zaokrąglenie rogów */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+  }
+  form {
+    width: 50%;  /* Ustawiam szerokość formularza na 50% */
+    border: 1px solid #ccc;  /* Dodaję obramowanie formularza */
+    padding: 20px;  /* Dodaję padding do formularza */
+    border-radius: 5px;  /* Dodaję zaokrąglenie rogów */
+    box-shadow: 2px 2px 5px #ccc;  /* Dodaję cień do formularza */
+    margin: auto;
+  }
+  label, input, textarea {
+    display: block;  /* Ustawiam "display" na "block", aby każdy element był w nowej linii */
+    margin: 10px 0;  /* Ustawiam marginesy górne i dolne na 10px */
+  }
+  input[type="text"], textarea {
+    width: 100%;  /* Ustawiam szerokość pola tekstowego na 100% */
+    padding: 5px;  /* Dodaję padding do pola tekstowego */
+  }
+  input[type="submit"] {
+    background-color: rgb(0, 0, 0);  /* Ustawiam kolor tła na ciemny szary */
+    color: rgb(255, 255, 255);  /* Ustawiam kolor tekstu na biały */
+    padding: 10px 20px;  /* Dodaję padding do przycisku */
+    border: none;  /* Usuwam obramowanie przycisku */
+    cursor: pointer;  /* Zmieniam kursor na "pointer", aby wskazywał, że przycisk jest klikalny */
+  }
+  @media only screen and (max-width: 600px) {
+    /* Kody CSS dla urządzeń o szerokości ekranu do 600px */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* Kody CSS dla urządzeń o szerokości ekranu od 601px do 900px */
+  }
+  
+  @media only screen and (min-width: 901px) {
+    /* Kody CSS dla urządzeń o szerokości ekranu powyżej 901px */
+  }
+  .images img {
+    margin: 20px;
+    width: 300px;
+height: 300x;
+    transition: transform 0.2s;
+  }
+  .images img:hover {
+    transform: scale(1.3);}
+  
+  
+  
